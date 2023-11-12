@@ -21,7 +21,7 @@ public class HomePage {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		URL= ("https://www.flyfrontier.com/");
+		URL= ("https://www.flyfrontier.com/test");
 		
 		}
 		@Test
